@@ -1,0 +1,16 @@
+<header class="">
+  <div class="container">
+    <div class="row">
+      <div class="col-7">
+        {% if page.layout == 'home' %}
+          <h1><a href="{{ site.baseurl }}" title="{{ site.title }}">{{ site.title }}</a></h1>
+        {% else %}
+          <h2><a href="{{ site.baseurl }}" title="{{ site.title }}">{{ site.title }}</a></h2>
+        {% endif %}
+
+        <h3>Born July 23, 2009, at 6:32a.m. in New York City</h3>
+        <div id="counter"></div>
+      </div>
+    </div>
+  </div>
+</header>

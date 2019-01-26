@@ -1,0 +1,225 @@
+/*@import "css/reset.css";*/
+/*@import "http://root.futuretree.us/css/entry.css";*/
+
+/*font-family: 'Montserrat', sans-serif;*/
+body{
+  margin:0;
+	color:#F6F6F6;
+	background: #000 url('img/night-sky.jpg') fixed;
+	font-family: 'Montserrat', 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+}
+
+.hide{display:none}
+
+#head{}
+#head h1{
+  margin:0;
+  margin-left:-6px;
+  font-family: 'Montserrat', 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+  font-size:190px;
+  line-height:200px;
+}
+#head h2{
+  margin:0 0 0 8px;
+  font-family: 'Montserrat', 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+  font-size:26px;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h4{
+  margin:100px 0 120px -8px;
+  font-family: 'Montserrat', 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+  font-size:245px;
+  line-height:233px;
+  text-transform: uppercase;
+}
+
+h5{
+  margin:50px 0;
+  font-family: 'Montserrat', 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+  font-size:100px;
+  line-height:100px;
+  text-transform: uppercase;
+}
+
+h6{
+  margin:50px 0;
+  font-family: 'Montserrat', 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+  font-size:36px;
+  line-height:48px;
+  text-transform: uppercase;
+}
+
+a {
+  color: #EFE909;
+  color: #009DFF;
+  text-decoration: none;
+}
+a:hover {
+  border-bottom: 5px #EFE909 solid;
+  border-bottom: 5px #009DFF solid;
+}
+
+
+ul{
+  margin:0 0 10px 0;
+  padding:0 55px;
+}
+li{
+  padding:5px 0;
+}
+
+p{
+  margin-bottom:1em;
+}
+
+small{
+  font-size:36px;
+}
+
+
+
+section{
+  padding:30px 0;
+  /*clear:both;*/
+}
+
+.container{
+  max-width:820px;
+}
+
+
+/*AGE*/
+.age{
+  margin-top:2em;
+}
+.age span{
+  margin:70px auto;
+  font-size:320px;
+  text-align: center;
+  line-height:400px;
+  width:377px;
+  height:377px;
+  display:block;
+  border:5px #fff solid;
+  -webkit-border-radius: 192px;
+     -moz-border-radius: 192px;
+          border-radius: 192px;
+}
+
+
+
+.invite{
+  font-size:48px;
+  text-align: center;
+}
+.invite h3{
+  margin-top:0;
+  font-size:124px;
+  text-transform: uppercase;
+}
+.invite h3 sup{
+  font-size:72px;
+}
+.invite .entry{
+  margin:100px 0;
+  border-top:5px #fff solid;
+}
+.invite .deets{
+  font-size:144px;
+  font-weight: 900;
+}
+.invite p {
+/*  margin:5px 0;*/
+}
+.invite p strong{
+  border-bottom: 5px #fff solid;
+}
+
+.invite p.note{
+  margin:100px 0;
+}
+
+.slide{
+  margin:0 auto;
+}
+
+.rsvp{
+  margin:0 auto;
+  padding:25px 40px 30px 40px;
+  font-size:96px;
+  background:rgba(255,255,255,.3);
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+  -webkit-transition: all 0.15s ease-in-out;
+     -moz-transition: all 0.15s ease-in-out;
+       -o-transition: all 0.15s ease-in-out;
+          transition: all 0.15s ease-in-out;
+}
+.rsvp span{
+  display:block;
+  font-size:24px;
+}
+.rsvp a{}
+.rsvp a:hover{
+  text-decoration:underline;
+}
+.rsvp:hover{
+  background:rgba(255,255,255,.4);
+  cursor: pointer;
+}
+
+
+
+
+
+/*Life Counter*/
+#counter-test{display:none;}
+
+#counter {
+  margin:50px 0;
+}
+
+.unit {
+	padding:0 5px 0 0;
+	font-size:72px;
+	float: left;
+	display: inline;
+	width:126px;
+	text-align: center;
+/*  background:#f6f6f6;*/
+}
+
+.yr{
+  width:89px;
+}
+.unit:first-child{
+  padding-right:0;
+}
+.unit:last-child{
+  padding-right:0;
+  border:none;
+}
+
+.unit strong {
+	line-height: 105px;
+	display:block;
+}
+.unit span {
+	font-size: 18px;
+	display: block;
+	text-transform: uppercase;
+  font-weight: normal;
+}
+#cntdwn-days {
+	padding-left:0;
+}
+
+
+#footer p{
+  font-size:21px;
+  text-align: center;
+}

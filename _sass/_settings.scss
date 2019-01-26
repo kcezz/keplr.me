@@ -1,0 +1,40 @@
+
+// Settings
+
+
+// Colors
+$white: #fff;
+$black: #000;
+$deep: #2e2c40;
+$bg: #000;
+$base_type: 16px;
+$link: #5942d2;
+
+// Type
+
+$serif: Times, serif;
+$sans: 'Lato', -apple-system, BlinkMacSystemFont, sans-serif;
+$mono: "Roboto Mono", monospace;
+$base_color: $deep;
+
+
+
+// - - - - - - - - - - - - -
+
+body{
+  margin:0;
+  color: $white;
+  font-size: $base_type;
+  font-family: $sans;
+  background-color: $bg;
+}
+
+.paper{
+  background: $black url('assets/img/night-sky.jpg') fixed;
+}
+
+hr{
+  margin: 50px 0;
+  border-top-color: $deep;
+  width: 25%;
+}

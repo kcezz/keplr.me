@@ -1,5 +1,5 @@
 # keplr.me
-About the maker of this website.
+About the maker of this website:
 
 ## Rules for editing:
 

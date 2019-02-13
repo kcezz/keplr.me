@@ -11,10 +11,11 @@ $base_type: 16px;
 $link: #5942d2;
 
 // Type
+$serif: 'Noto Serif TC', serif;
+$sans: 'Play', -apple-system, BlinkMacSystemFont, sans-serif;
+$script: 'Dancing Script', cursive;
+$mono: monospace;
 
-$serif: Times, serif;
-$sans: 'Lato', -apple-system, BlinkMacSystemFont, sans-serif;
-$mono: "Roboto Mono", monospace;
 $base_color: $deep;
 
 
@@ -26,7 +27,7 @@ body{
   color: $white;
   font-size: $base_type;
   font-family: $sans;
-  background-color: $bg;
+  background: $bg url('img/night-sky.jpg') fixed;
 }
 
 .paper{

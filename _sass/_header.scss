@@ -1,6 +1,11 @@
 // Header
 
-header > div {
-  padding: 4em 0;
-  border-bottom: 10px solid $white;
+header{
+  h1{
+    margin-bottom: 24px;
+  }
+  h3{
+    font-size: 27px;
+    font-weight: normal;
+  }
 }

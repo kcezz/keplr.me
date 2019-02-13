@@ -3,6 +3,12 @@
 header{
   h1{
     margin-bottom: 24px;
+    a{
+      border-bottom: none;
+      &:hover{
+        border-bottom: none;
+      }
+    }
   }
   h3{
     font-size: 27px;

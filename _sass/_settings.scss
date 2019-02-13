@@ -27,11 +27,13 @@ body{
   color: $white;
   font-size: $base_type;
   font-family: $sans;
-  background: $bg url('img/night-sky.jpg') fixed;
+  background: red;
 }
 
 .paper{
-  background: $black url('assets/img/night-sky.jpg') fixed;
+  // background: $black url('assets/img/night-sky.jpg') fixed;
+  background: $bg url('img/night-sky.jpg') fixed;
+  height: -webkit-fill-available;
 }
 
 hr{

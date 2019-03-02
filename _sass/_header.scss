@@ -16,7 +16,7 @@ header{
   }
 
   #counter{
-    // background-color: #08a413;
+    margin-bottom: 48px;
     display: flex;
     justify-content: center;
     .unit{
@@ -53,17 +53,23 @@ header{
         background: blue;
       }
       @media only screen and (min-width: 992px) {
-        padding: 0 10px;
-        background: yellow;
+        padding: 0 18px;
+        strong{
+          font-size: 65px;
+        }
+        span{
+          font-size: 24px;
+        }
+        background: orange;
       }
       @media only screen and (min-width: 1200px) {
-        padding: 0 20px;
+        padding: 0 24px;
         background: purple;
         strong{
           font-size: 72px;
         }
         span{
-          font-size: 18px;
+          font-size: 24px;
         }
       }
 

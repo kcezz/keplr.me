@@ -3,13 +3,10 @@
 header{
   h1{
     margin-bottom: 24px;
-    a{
-      border-bottom: none;
-      &:hover{
-        border-bottom: none;
-      }
+    font-size: 28vw;
+    @media only screen and (min-width: 992px) {
+      font-size: 18vw;
     }
-    font-size: 20vw;
   }
   h3{
     font-size: 2.5vw;

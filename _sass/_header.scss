@@ -9,6 +9,22 @@ header{
         border-bottom: none;
       }
     }
+    font-size: 25.5vw;
+    // @media only screen and (min-width: 576px) {
+    //
+    // }
+    //
+    // @media only screen and (min-width: 768px) {
+    //
+    // }
+    //
+    // @media only screen and (min-width: 992px) {
+    //
+    // }
+    //
+    // @media only screen and (min-width: 1200px) {
+    //   font-size: 3rem;
+    // }
   }
   h3{
     font-size: 27px;
@@ -16,7 +32,7 @@ header{
   }
 
   #counter{
-    margin-bottom: 48px;
+    margin-bottom: 40px;
     display: flex;
     justify-content: center;
     .unit{
@@ -80,22 +96,18 @@ header{
 }
 
 
-// Small devices (landscape phones, 576px and up)
-@media only screen and (min-width: 576px) {
+// @media only screen and (min-width: 576px) {
+//
+// }
+//
+// @media only screen and (min-width: 768px) {
+//
+// }
 
-}
-
-// Medium devices (tablets, 768px and up)
-@media only screen and (min-width: 768px) {
-
-}
-
-// Large devices (desktops, 992px and up)
-@media only screen and (min-width: 992px) {
-
-}
-
-// Extra large devices (large desktops, 1200px and up)
-@media only screen and (min-width: 1200px) {
-
-}
+// @media only screen and (min-width: 992px) {
+//
+// }
+//
+// @media only screen and (min-width: 1200px) {
+//
+// }

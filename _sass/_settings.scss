@@ -7,6 +7,7 @@ $white: #fff;
 $black: #000;
 $deep: #2e2c40;
 $bg: #000;
+$paper: #00b82e;
 $base_type: 16px;
 $link: #5942d2;
 
@@ -27,11 +28,13 @@ body{
   color: $white;
   font-size: $base_type;
   font-family: $sans;
-  background: $bg url('img/night-sky.jpg') fixed;
+  background: $paper;
 }
 
 .paper{
-  background: $black url('assets/img/night-sky.jpg') fixed;
+  // background: $black url('assets/img/night-sky.jpg') fixed;
+  background: $bg url('img/night-sky.jpg') fixed;
+  height: -webkit-fill-available;
 }
 
 hr{

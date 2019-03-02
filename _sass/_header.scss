@@ -47,7 +47,6 @@ header{
         text-transform: uppercase;
         display: block;
       }
-      background: green;
       @media only screen and (min-width: 576px) {
         padding: 0 14px;
         strong{
@@ -56,7 +55,6 @@ header{
         span{
           font-size: 18px;
         }
-        background: red;
       }
       @media only screen and (min-width: 768px) {
         padding: 0 18px;
@@ -66,7 +64,6 @@ header{
         span{
           font-size: 21px;
         }
-        background: blue;
       }
       @media only screen and (min-width: 992px) {
         padding: 0 18px;
@@ -76,11 +73,9 @@ header{
         span{
           font-size: 24px;
         }
-        background: orange;
       }
       @media only screen and (min-width: 1200px) {
         padding: 0 24px;
-        background: purple;
         strong{
           font-size: 72px;
         }

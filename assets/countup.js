@@ -13,7 +13,7 @@ function CountUp(initDate, id){
     this.updateNumOfDays();
     this.updateCounter();
 }
-  
+
 CountUp.prototype.updateNumOfDays=function(){
     var dateNow = new Date();
     var currYear = dateNow.getFullYear();
@@ -23,7 +23,7 @@ CountUp.prototype.updateNumOfDays=function(){
     var self = this;
     setTimeout(function(){self.updateNumOfDays();}, (new Date((currYear+1), 1, 2) - dateNow));
 }
-  
+
 CountUp.prototype.datePartDiff=function(then, now, MAX){
     var diff = now - then - this.borrowed;
     this.borrowed = 0;
@@ -31,7 +31,7 @@ CountUp.prototype.datePartDiff=function(then, now, MAX){
     this.borrowed = 1;
     return (MAX + diff);
 }
-  
+
 CountUp.prototype.calculate=function(){
     var currDate = new Date();
     var prevDate = this.beginDate;
@@ -42,17 +42,17 @@ CountUp.prototype.calculate=function(){
     this.months = this.datePartDiff(prevDate.getMonth(), currDate.getMonth(), 12);
     this.years = this.datePartDiff(prevDate.getFullYear(), currDate.getFullYear(),0);
 }
-  
+
 CountUp.prototype.addLeadingZero=function(value){
     return value < 10 ? ("0" + value) : value;
 }
-  
+
 CountUp.prototype.formatTime=function(){
     this.seconds = this.addLeadingZero(this.seconds);
     this.minutes = this.addLeadingZero(this.minutes);
     this.hours = this.addLeadingZero(this.hours);
 }
- 
+
 CountUp.prototype.updateCounter=function(){
     this.calculate();
     this.formatTime();
@@ -62,15 +62,9 @@ CountUp.prototype.updateCounter=function(){
   		" <div class='hr unit'><strong>" + this.hours + "</strong> <span>" + (this.hours == 1? "hour" : "hours") + "</span></div>" +
   		" <div class='m unit'><strong>" + this.minutes + "</strong> <span>" + (this.minutes == 1? "minute" : "minutes") + "</span></div>" +
   		" <div class='s unit'><strong>" + this.seconds + "</strong> <span>" + (this.seconds == 1? "second" : "seconds") + "</span></div>";
-  		
-    // this.countainer.innerHTML ="<strong>" + this.years + "</strong> <small>" + (this.years == 1? "year" : "years") + "</small>" +
-    //     " <strong>" + this.months + "</strong> <small>" + (this.months == 1? "month" : "months") + "</small>" +
-    //     " <strong>" + this.days + "</strong> <small>" + (this.days == 1? "day" : "days") + "</small>" +
-    //     " <strong>" + this.hours + "</strong> <small>" + (this.hours == 1? "hour" : "hours") + "</small>" +
-    //     " <strong>" + this.minutes + "</strong> <small>" + (this.minutes == 1? "minute" : "minutes") + "</small>" +
-    //     " <strong>" + this.seconds + "</strong> <small>" + (this.seconds == 1? "second" : "seconds") + "</small>";
+
     var self = this;
     setTimeout(function(){self.updateCounter();}, 1000);
 }
- 
+
 window.onload=function(){ new CountUp('July 23, 2009 06:32:11 GMT-0500', 'counter'); }

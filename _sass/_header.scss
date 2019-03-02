@@ -14,4 +14,82 @@ header{
     font-size: 27px;
     font-weight: normal;
   }
+
+  #counter{
+    // background-color: #08a413;
+    display: flex;
+    justify-content: center;
+    .unit{
+      padding: 0 7px;
+      text-align: center;
+      strong{
+        font-size: 26px;
+        display: block;
+      }
+      span{
+        font-size: 12px;
+        text-transform: uppercase;
+        display: block;
+      }
+      background: green;
+      @media only screen and (min-width: 576px) {
+        padding: 0 14px;
+        strong{
+          font-size: 36px;
+        }
+        span{
+          font-size: 18px;
+        }
+        background: red;
+      }
+      @media only screen and (min-width: 768px) {
+        padding: 0 18px;
+        strong{
+          font-size: 52px;
+        }
+        span{
+          font-size: 21px;
+        }
+        background: blue;
+      }
+      @media only screen and (min-width: 992px) {
+        padding: 0 10px;
+        background: yellow;
+      }
+      @media only screen and (min-width: 1200px) {
+        padding: 0 20px;
+        background: purple;
+        strong{
+          font-size: 72px;
+        }
+        span{
+          font-size: 18px;
+        }
+      }
+
+
+    }
+
+  }
+}
+
+
+// Small devices (landscape phones, 576px and up)
+@media only screen and (min-width: 576px) {
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media only screen and (min-width: 768px) {
+
+}
+
+// Large devices (desktops, 992px and up)
+@media only screen and (min-width: 992px) {
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media only screen and (min-width: 1200px) {
+
 }

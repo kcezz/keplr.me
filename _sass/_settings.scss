@@ -34,7 +34,7 @@ body{
 .paper{
   // background: $black url('assets/img/night-sky.jpg') fixed;
   background: $bg url('img/night-sky.jpg') fixed;
-  height: -webkit-fill-available;
+  background-repeat: repeat-y;
 }
 .paper.p1{
   background: $bg url('img/xdf_hubble.jpeg') fixed;

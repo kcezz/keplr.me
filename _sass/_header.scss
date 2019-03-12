@@ -3,14 +3,37 @@
 header{
   h1{
     margin-bottom: 24px;
-    font-size: 28vw;
-    @media only screen and (min-width: 992px) {
-      font-size: 18vw;
+    font-size: 5.5rem;
+    @media only screen and (min-width: 576px) {
+      font-size: 9rem;
     }
+    @media only screen and (min-width: 768px) {
+      font-size: 10rem;
+    }
+    @media only screen and (min-width: 992px) {
+      font-size: 12rem;
+    }
+    @media only screen and (min-width: 1200px) {
+      font-size: 13rem;
+    }
+
   }
   h3{
-    font-size: 2.5vw;
+    font-size: 1.6rem;
+    line-height: 36px;
     font-weight: normal;
+    @media only screen and (min-width: 576px) {
+      font-size: 1.49rem;
+    }
+    @media only screen and (min-width: 768px) {
+      font-size: 1.86rem;
+    }
+    @media only screen and (min-width: 992px) {
+      font-size: 2.1rem;
+    }
+    @media only screen and (min-width: 1200px) {
+      font-size: 2.3rem;
+    }
   }
 
   #counter{
